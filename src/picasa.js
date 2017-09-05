@@ -194,7 +194,8 @@ const photoSchema = {
   'gphoto$commentCount'      : 'comment_count',
   'content'                  : 'content',
   'title'                    : 'title',
-  'summary'                  : 'summary'
+  'summary'                  : 'summary',
+  'media$group'              : 'media'
 }
 
 function parseEntry (entry, schema) {
